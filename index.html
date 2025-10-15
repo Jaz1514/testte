@@ -4,12 +4,10 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>ParkNet - Office Parking Management</title>
-  style.css
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    ParkNet - Office Parking Management
-  </header>
+  <header>ParkNet - Office Parking Management</header>
 
   <main class="container">
     <!-- Main Parking Grid -->
@@ -20,10 +18,12 @@
     <!-- Admin Section -->
     <section class="admin-section" aria-label="Admin Controls">
       <h2>Admin</h2>
+
       <div class="admin-actions">
         <input type="text" id="newEmployeeName" placeholder="Add new employee (full name)"/>
         <button id="addEmployeeBtn">Add Employee</button>
       </div>
+
       <div id="adminEmployees"></div>
     </section>
   </main>
